@@ -33,6 +33,13 @@ const userData = {
       desc: "Computer Engineer 💻",
     },
     {
+      title: "International Mobility",
+      company: "Porto University - UP - Porto, Portugal",
+      year: "2021",
+      companyLink: "https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=home",
+      desc: "Informatics and Computer Engineering 💻",
+    },
+    {
       title: "Software Developer",
       company: "Radek Information Systems",
       year: "2019",
