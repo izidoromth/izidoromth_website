@@ -44,7 +44,7 @@ export default function AboutMe() {
                 and I'll get back. I swear.
               </p>
             </div>
-            {/* <div className="mt-8">
+            <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Job Opportunities
               </h1>
@@ -60,7 +60,7 @@ export default function AboutMe() {
                 </a>{" "}
                 and I'd love to work for you.
               </p>
-            </div> */}
+            </div>
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
