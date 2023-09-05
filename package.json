@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "next": "10.x",
+    "next": "12.x",
     "next-themes": "0.0.15",
-    "react": "17.x",
-    "react-dom": "17.x",
-    "react-rough-notation": "^1.0.1"
+    "react": "18.x",
+    "react-dom": "18.x",
+    "react-rough-notation": "^1.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
