@@ -35,6 +35,26 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
+            href="https://peaceful-passenger-57c.notion.site/LibScoutR-a279657d43814db6beb258c8e88703d5"
+            className="w-full block col-span-1 sm:col-span-1  object-cover"
+          >
+            <div className="relative overflow-hidden shadow-2xl">
+              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+              <img
+                src="/libscoutr.PNG"
+                alt="portfolio"
+                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-yellow-400 rounded-md px-2">
+                LibScoutR
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-500 font-bold text-xl">
+                01
+              </h1>
+            </div>
+          </a>
+          {/* Single card */}
+          <a
             href="https://play.google.com/store/apps/details?id=com.intelbras.connectfi&gl=US"
             className="w-full block col-span-1 shadow-2xl"
           >
@@ -48,7 +68,7 @@ export default function FavouriteProjects() {
                 Connectfi Intelbras
               </h1>
               <h1 className="absolute bottom-10 left-10 text-green-500 font-bold text-xl">
-                01
+                02
               </h1>
             </div>
           </a>
@@ -68,26 +88,6 @@ export default function FavouriteProjects() {
                 NHS QUAD Híbrido
               </h1>
               <h1 className="absolute bottom-10 left-10 text-blue-900 font-bold text-xl">
-                02
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://peaceful-passenger-57c.notion.site/LibScoutR-a279657d43814db6beb258c8e88703d5"
-            className="w-full block col-span-1 sm:col-span-1  object-cover"
-          >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/libscoutr.PNG"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-yellow-400 rounded-md px-2">
-                LibScoutR
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-500 font-bold text-xl">
                 03
               </h1>
             </div>
