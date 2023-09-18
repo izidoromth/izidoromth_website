@@ -43,13 +43,33 @@ export default function FavouriteProjects() {
               <img
                 src="/libscoutr.PNG"
                 alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+                className="transform hover:scale-150 transition duration-2000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-yellow-400 rounded-md px-2">
                 LibScoutR
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-500 font-bold text-xl">
                 01
+              </h1>
+            </div>
+          </a>
+          {/* Single card */}
+          <a
+            href="https://criminaldash-619691ee4194.herokuapp.com/gmc"
+            className="w-full block col-span-1  sm:col-span-1 shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+              <img
+                src="/criminaldash.PNG"
+                alt="portfolio"
+                className="transform hover:scale-150 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
+                Criminal Dashboard (Thesis)
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-blue-900 font-bold text-xl">
+                02
               </h1>
             </div>
           </a>
@@ -62,32 +82,12 @@ export default function FavouriteProjects() {
               <img
                 src="/connectfi.PNG"
                 alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
+                className="transform hover:scale-150 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-green-500 rounded-md px-2">
                 Connectfi Intelbras
               </h1>
               <h1 className="absolute bottom-10 left-10 text-green-500 font-bold text-xl">
-                02
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://play.google.com/store/apps/details?id=com.nhs.quad&gl=US"
-            className="w-full block col-span-1  sm:col-span-1 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/nhsquad.PNG"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
-                NHS QUAD Híbrido
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-blue-900 font-bold text-xl">
                 03
               </h1>
             </div>
