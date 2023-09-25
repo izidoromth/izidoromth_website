@@ -55,7 +55,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://criminaldash-619691ee4194.herokuapp.com/gmc"
+            href="https://criminal-dashboard.onrender.com/gmc"
             className="w-full block col-span-1  sm:col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
