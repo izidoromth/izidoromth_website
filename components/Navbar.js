@@ -6,7 +6,7 @@ import userData from "@constants/data";
 
 export default function Navbar() {
   const router = useRouter();
-  console.log(router.asPath);
+  console.log('rout', router.asPath);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -20,20 +20,20 @@ export default function Navbar() {
         {/* Logo / Home / Text */}
 
         <div className="flex flex-col">
-          <Link href="/">
+          <Link legacyBehavior href="/">
             <a>
               <h1 className="font-semibold text-xl dark:text-gray-100">
                 {userData.name}
               </h1>
-              <p className="text-base font-light text-gray-500 dark:text-gray-300">
+              <div className="text-base font-light text-gray-500 dark:text-gray-300">
                 {userData.designation}
-              </p>
+              </div>
             </a>
           </Link>
         </div>
 
         <div className="space-x-8 hidden md:block">
-          <Link href="/about">
+          <Link legacyBehavior href="/about">
             <a
               className={`text-base  ${
                 router.asPath === "/about"
@@ -59,7 +59,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          {/* <Link href="/projects">
+          {/* <Link legacyBehavior href="/projects">
             <a
               className={`text-base  ${
                 router.asPath === "/projects"
@@ -85,7 +85,7 @@ export default function Navbar() {
               )}
             </a>
           </Link> */}
-          <Link href="/experience">
+          <Link legacyBehavior href="/experience">
             <a
               className={`text-base  ${
                 router.asPath === "/experience"
@@ -111,7 +111,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/contact">
+          <Link legacyBehavior href="/contact">
             <a
               className={`text-base  ${
                 router.asPath === "/contact"
@@ -220,22 +220,22 @@ export default function Navbar() {
         </div>
       </div>
       <div className="space-x-8 block md:hidden mt-4">
-        <Link href="/about">
+        <Link legacyBehavior href="/about">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             About
           </a>
         </Link>
-        {/* <Link href="/projects">
+        {/* <Link legacyBehavior href="/projects">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Projects
           </a>
         </Link> */}
-        <Link href="/experience">
+        <Link legacyBehavior href="/experience">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Experience
           </a>
         </Link>
-        <Link href="/contact">
+        <Link legacyBehavior href="/contact">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Contact
           </a>

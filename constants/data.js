@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "izidoromth",
   name: "Matheus Izidoro",
-  designation: "Full-Stack Developer",
+  designation: "Full-Stack / Mobile Developer",
   avatarUrl: "/avatar.png",
   email: "matheusizidoro07@gmail.com",
   phone: "+55 41 99885 2896",
@@ -15,7 +15,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves to solve problems and create beautiful and easy to use applications. Currently working on Radek Information Systems",
+      "I'm a software developer that loves to solve problems and create beautiful and easy to use applications. Currently working at Radek Information Systems",
     description: [
       `I'm in the world of technology since I was a kid when my father bought our very first computer. I was introduced to programming at 12 when I used Blender to create a game even that at that moment I didn't know that it was called programming.`,
       `At 14 I started my technology high school entering in Computer Engineering graduation after that. Since then I've been working on a vast variety of projects from games, mobile and desktop applications to robots!`,
