@@ -62,7 +62,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://shorturl.at/jBS04",
+    "https://drive.google.com/file/d/1gLZyxgJfwWAiBgabuQIR5J9dX15C6m2b/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/izidoro.mth",
     linkedin: "https://www.linkedin.com/in/matheus-izidoro-de-almeida-463533123/",
